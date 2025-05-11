@@ -397,7 +397,7 @@
 
 /*** Single Page Hero Header Start ***/
 .bg-breadcrumb {
-    background: linear-gradient(rgba(19, 53, 123, 0.5), rgba(19, 53, 123, 0.5)), url(../img/breadcrumb-bg.jpg);
+    background: linear-gradient(rgba(36, 107, 68, 0.5), rgba(36, 107, 68, 0.5)), url(../img/TG/header.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -879,7 +879,7 @@
 }
 
 .gallery .gallery-item:hover .gallery-content {
-    background: rgba(19, 53, 123, 0.8);
+    background: rgba(46, 139, 87, 0.8);
 }
 
 .gallery .tab-class .nav-item {

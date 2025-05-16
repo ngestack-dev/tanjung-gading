@@ -105,8 +105,21 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
           <div class="navbar-nav ms-auto py-0">
-            <a href="index.html" class="nav-item nav-link active">Beranda</a>
-            <a href="informasi.html" class="nav-item nav-link">Informasi</a>
+            <div class="nav-item dropdown">
+              <a href="index.html" class="nav-item nav-link active">Beranda</a>
+              <div class="dropdown-menu m-0">
+                <a href="index.html#Lokasi" class="dropdown-item">Lokasi</a>
+                <a href="index.html#Operasional" class="dropdown-item">Operasional</a>
+              </div>
+            </div>
+            <div class="nav-item dropdown">
+              <a href="informasi.html" class="nav-item nav-link">Informasi</a>
+              <div class="dropdown-menu m-0">
+                <a href="informasi.html#Fasilitas" class="dropdown-item">Fasilitas</a>
+                <a href="informasi.html#Aktivitas" class="dropdown-item">Aktivitas</a>
+                <a href="informasi.html#Galeri" class="dropdown-item">Galeri</a>
+              </div>
+            </div>
             <a href="tentang.html" class="nav-item nav-link">Tentang Kami</a>
             <a href="kontak.html" class="nav-item nav-link">Kontak</a>
             <!-- <a href="blog.html" class="nav-item nav-link">Blog</a> -->
@@ -160,10 +173,7 @@
                     Jelajahi Keindahan Alamnya!
                   </h1>
                   <p class="mb-5 fs-5">
-                    Tanjung Gading menawarkan perpaduan pesona danau
-                    yang memukau, cocok untuk rekreasi keluarga, aktivitas air,
-                    hingga hunting foto yang Instagrammable. Temukan pengalaman
-                    liburan tak terlupakan di sini!
+                    Tanjung Gading menawarkan perpaduan suasana alam yang asri dan menyejukkan dengan pesona danau yang memukau. Tempat ini dilengkapi fasilitas lengkap, cocok untuk acara atau kumpul keluarga, komunitas, serta para wisatawan yang ingin menikmati berbagai aktivitas seru, hingga berburu foto di spot yang Instagrammable. Temukan pengalaman yang menyenangkan dan tak terlupakan di tengah keindahan alam Tanjung Gading!"  
                   </p>
                   <!-- <div class="d-flex align-items-center justify-content-center">
                     <a
@@ -196,7 +206,7 @@
     <!-- Navbar & Hero End -->
 
     <!-- About Start -->
-    <div class="container-fluid about py-5">
+    <div class="container-fluid about py-5" id="Lokasi">
       <div class="container py-5">
         <div class="row g-5 align-items-center">
           <div class="mx-auto text-center mb-5" style="max-width: 900px">
@@ -250,7 +260,7 @@
     <!-- About End -->
 
     <!-- Services Start -->
-    <div class="container-fluid bg-light service py-5">
+    <div class="container-fluid bg-light service py-5" id="Operasional">
       <div class="container py-5">
         <div class="mx-auto text-center mb-5" style="max-width: 900px">
           <h5 class="section-title px-3">Operasional</h5>
